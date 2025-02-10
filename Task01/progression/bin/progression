@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use kabyfed\Progression\Controller;
+use kabyfed\Progression\View;
+
+$view = new View();
+$controller = new Controller($view);
+
+$controller->startGame();
