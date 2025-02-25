@@ -1,0 +1,20 @@
+{
+    "name": "kabyfed/progression",
+    "autoload": {
+        "psr-4": {
+            "kabyfed\\Progression\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/progression"
+    ],
+    "authors": [
+        {
+            "name": "Artem",
+            "email": "artem0fedoseev15@mail.ru"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.1"
+    }
+}
